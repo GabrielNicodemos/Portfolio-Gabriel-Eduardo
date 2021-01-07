@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="./img/favicon.fw.png" />
 	<link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/reset.css">
@@ -11,29 +12,37 @@
   <title>Gabriel Nicodemos Dev</title>
 </head>
 <body>
-
   <!-- MENU / INTRO -->
   <div class="img-bg">
     <div class="menu">
       <ul>
         <li><a href="#sobre">Sobre mim</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </div>
     <div class="intro-menu">
-      <h1><span>&lt</span> Gabriel Eduardo <br>C. Nicodemos <span>/&gt</span></h1>
+      <h1><span>&lt</span><span id="title-name"> Gabriel Eduardo C. Nicodemos </span><span>/&gt</span></h1>
       <p>Desenvolvedor Web</p>
       <p>Aluno na <a href="http://www.digitalschool.com.br/faculdade/"> <b class="link">BandTec</b>  </a>  <span>&&</span> Estagiário na <a href="https://stefanini.com/pt-br"><b class="link">Stefanini</b></a></p>
-  
-      <button><a href="#">Downloard CV</a></button>
+       
+      <div class="div-btn">  
+         <a href="https://drive.google.com/file/d/174fm0QYNnORWRJqewiuFpkBdfJn_NdAM/view"  target="_blank">
+          <button>Downloard CV</button>
+          </a>
+      </div>
+    
+       <div class="animacao-seta">
+            <img src="./img/seta-baixo.png" alt="Seta">
+       </div>
+      
     </div>
   </div>
 
   <!-- SOBRE MIM -->
-  <section class="sobre-bg" id="#sobre">
-    <h1><span>&lt</span> Sobre mim <span>/&gt</span></h1>
+  <section class="sobre-bg" >
+    <h1 id="sobre"><span>&lt</span> Sobre mim <span>/&gt</span></h1>
 
     <div class="sobre">
       <div class="img-sobre">
@@ -42,37 +51,153 @@
 
     <div class="txt-sobre">
       <h2>Hello Word!</h2>
-      <p>Meu nome é Gabriel Eduardo, tenho 22 anos
-        Aluno do 2º semestre do curso de Analise e
+      <p>Meu nome é Gabriel Eduardo, tenho 22 anos,
+        aluno do 2º semestre do curso de Análise e
         Desenvolvimento de Sistemas na BandTec Digital 
-        School e estagiário na Stefanini Brasil</p>
-      <p>Comecei a programar aos 17 anos, quando comecei
-        a estudar no CEFET MG no curso de informática</p>
-      <p>Desde então sou apaixonado por programar e estou 
+        School e estagiário na Stefanini Brasil.</p>
+      <p>Comecei desenvolver aos 17 anos, quando comecei
+        a estudar no CEFET-MG no curso técnico de informática.</p>
+      <p>Desde então, sou apaixonado por programar e estou 
         em constante evolução.</p>
     </div>
     </div>
 
     <div class="valores-sobre">
       <div>
-        <img src="./img/check-icon.png" alt="">
+        <img src="./img/check-icon.png" alt="Check icon">
         <p>Proatividade</p>
       </div>
       <div>
-        <img src="./img/check-icon.png" alt="">
+        <img src="./img/check-icon.png" alt="Check icon">
         <p>Produtividade</p>
       </div>
       <div>
-        <img src="./img/check-icon.png" alt="">
+        <img src="./img/check-icon.png" alt="Check icon">
         <p>Persistência</p>
       </div>
     </div>
   </section>
 
-  
+  <!-- Skills -->
+  <section class="skills">
+    <h1 id="skills"><span>&lt</span> Skills <span>/&gt</span></h1>
+     
+    <div class="container-skills">
+      <div>
+        <img src="./img/web.png" alt="HTML e CSS png">
+        <p>Web Designer</p>
+        <p>nivel: <span class="nivel-color">intermediário</span></p>
+      </div>
+      <div>
+        <img src="./img/javascript.png" alt="javascript png">
+        <p>Javascript</p>
+        <p>nivel: <span class="nivel-color">intermediário</span></p>
+      </div>
+      <div>
+        <img src="./img/java.png" alt="java png">
+        <p>Java</p>
+        <p>nivel: <span class="nivel-color">intermediário</span></p>
+      </div>
+    </div>
 
-   
-  
-  
+    <h2>Outros conhecimentos</h2>
+
+    <div class="conhecimentos">
+      <div>
+        <img src="./img/check-icon.png" alt="Check icon">
+        <p>Banco de dados</p>
+      </div>
+      <div>
+        <img src="./img/check-icon.png" alt="Check icon">
+        <p>Node.Js</p>
+      </div>
+      <div>
+        <img src="./img/check-icon.png" alt="Check icon">
+        <p>Metodologias <br> ágeis</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+
+  <section class="projetos-bg">
+    <h1 id="projetos"><span>&lt</span> Projetos <span>/&gt</span></h1>
+
+    <div class="projetos">
+      <div class="projeto">
+        <img src="./img/print-leedsbr.png" alt="Website-LeedsBR">
+        <h3>Website Leeds BR</h3>
+        <p>Projeto Acadêmico individual 
+          desenvolvido no
+          fechamento de semestre. 
+          Ferramentas utilizadas HTML, CSS
+          Javascript, SQL server
+          Microsoft Azure.
+          </p>
+          <a href="https://github.com/GabrielNicodemos/Website-LeedsBR" target="_blank"><button>Código</button></a>
+          <span id="span-white">desenvolvido em 2020</span>
+      </div>
+      <div class="projeto">
+        <img src="./img/print-algasensors.png" alt="Website Algasensors">
+        <h3>Algasensors</h3>
+        <p>Projeto Acadêmico em Grupo 
+          desenvolvido no
+          durante todo o semestre. 
+          Ferramentas utilizadas  HTML, CSS
+          Javascript, node.js, SQL server
+          Microsoft Azure e helpdesk.
+          </p>
+          <a href="https://github.com/BandTec/grupo11-1adsa-2020-2" target="_blank">
+            <button>Código</button></a>
+          <span id="span-white">desenvolvido em 2020</span>
+    </div>
+  </section>
+
+  <!-- Contatos -->
+
+  <section class="contato-bg">
+    <h1 id="contato"><span>&lt</span> Contatos <span>/&gt</span></h1>
+    <h3>Entre em contato, estou sempre online</h3>
+    <div class="contatos">
+      <div>
+        <a href="https://www.linkedin.com/in/gabriel-nicodemos-860a6b139/" target="_blank"><img src="./img/linkedin.png" alt="icon linkedin"></a>
+        <a href="https://www.linkedin.com/in/gabriel-nicodemos-860a6b139/" target="_blank"><u>Gabriel Eduardo</u> </a>
+      </div>
+      <div>
+       <a href="https://api.whatsapp.com/send?phone=5511951199848" target="_blank">
+        <img src="./img/whats.png" alt="icon whats"></a> 
+        <a href="+55 11 95119-9848" target="_blank">+55 11 95119-9848</a> <br>
+        <a href="https://api.whatsapp.com/send?phone=5511951199848" id="whatssapp" target="_blank"><u> Whatssapp</u></a>
+      </div>
+      <div>
+       <a href="#contato"><img src="./img/email.png" alt="icon email"></a> 
+        <a>gabriel.nicodemos@bandtec.com.br</a>
+      </div>
+      <div>
+        <a href="https://github.com/GabrielNicodemos" target="_blank"><img src="./img/git.png" alt="icon git"></a>
+        <a href="https://github.com/GabrielNicodemos" target="_blank"><u>Gabriel Eduardo</u> </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="copy">
+    <p>Copyright © 2021 <span id="style-copy">Gabriel Nicodemos</span>.</p>
+  </section>
 </body>
 </html>
+
+<script>
+
+  function typeWriter(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = ' ';
+    textoArray.forEach((letra, i) => {
+      console.log(i);
+      setTimeout(() =>
+        elemento.innerHTML += letra , 90 * i)
+    });
+  }
+
+  const t = document.querySelector('#title-name');
+  typeWriter(t);
+</script>

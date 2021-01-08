@@ -439,6 +439,9 @@ h1{
 
 @media screen and (max-width:320px)
 {
+  .menu ul{
+    flex-direction: column;
+  }
   .txt-sobre{
   max-width: 350px;
 }

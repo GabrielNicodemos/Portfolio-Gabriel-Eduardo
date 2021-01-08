@@ -7,30 +7,25 @@ body{
   font-family: "nunito" Arial, Helvetica, sans-serif;
   color: #222222;
 }
-
 a{
   text-decoration: none;
 }
 * {
 	box-sizing: border-box;
 }
-
 img {
 	display: block;
 	max-width: 100%;
 }
-
 @font-face {
   font-family: LetterGothicStd;
   src: url(/css/font/LetterGothicStd.otf);
 }
-
 @font-face {
   font-family: LetterGothicStd-bold;
   src: url(/css/font/LetterGothicStd-BoldSlanted.otf);
 }
 /* Menu/intro */
-
 .img-bg{
   background: url(../img/1.png) no-repeat;
   background-size: cover;
@@ -58,7 +53,6 @@ img {
   color: #903BF3;
   cursor: pointer;
 }
-
 .intro-menu{
   display: flex;
   flex-wrap: wrap;
@@ -67,9 +61,7 @@ img {
   margin:60px auto;
   justify-content: center;
   text-align: center;
-
 }
-
 #title-name{
   font-family: LetterGothicStd-bold, Arial, Helvetica, sans-serif;
   font-size: 1.5em;
@@ -77,14 +69,12 @@ img {
   margin-bottom: 10px;
   text-align: center;
 }
-
 .animacao-seta{
   width: 30px;
   height: 10px;
   margin: 60px auto;
   animation:seta 1s infinite ;
 }
-
 @keyframes seta {
   0%, 100% {
     margin: 60px auto;
@@ -93,26 +83,21 @@ img {
     margin: 70px auto;
   }
 }
-
 .intro-menu span{
   color: #04D361;
 }
-
 .intro-menu p{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1em;
   text-align: center;
   margin-bottom: 10px;
 }
-
 .link{
   color: white;
 }
-
 .link:hover{
   color: #903BF3;
 }
-
 .intro-menu button{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   width: 220px;
@@ -123,13 +108,11 @@ img {
   outline: none;
   border-radius: 20px;
 }
-
 .div-btn{
   width: 220px;
   height: 40px;
   margin:0px auto 60px auto;
 }
-
 .intro-menu button:hover{
   background: #222222;
   color: #903BF3;
@@ -140,7 +123,6 @@ img {
 .intro-menu button a{
   color: white;
 }
-
 /* Sobre Mim */
 .sobre-bg{
   background: #222222;
@@ -199,12 +181,10 @@ h1{
   justify-content: space-around;
   padding-top: 10px;
 }
-
 .valores-sobre img{
   margin: 10px auto;
   width: 30px;
 }
-
 .valores-sobre p{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1.2em;
@@ -213,9 +193,7 @@ h1{
   text-align: justify;
   line-height: 1.6;
 }
-
 /* Skills */
-
 .skills{
   background: #121214;
   width: 100%;
@@ -223,7 +201,6 @@ h1{
 .skills span{
   color: #04D361;
 }
-
 .container-skills{
   max-width: 960px;
   margin: 20px auto;
@@ -245,7 +222,6 @@ h1{
   text-align: center;
   line-height: 1;
 }
-
 .skills h2{
   font-family: LetterGothicStd-bold, Arial, Helvetica, sans-serif;
   font-size: 1.6em;
@@ -253,7 +229,6 @@ h1{
   margin: 20px;
   text-align: center;
 }
-
 .conhecimentos{
   max-width: 960px;
   margin: 20px auto 0 auto;
@@ -261,12 +236,10 @@ h1{
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .conhecimentos img{
   margin: 10px auto;
   width: 30px;
 }
-
 .conhecimentos p{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1.2em;
@@ -275,18 +248,14 @@ h1{
   text-align: center;
   line-height: 1.3;
 }
-
 /* Projetos */
-
 .projetos-bg{
   background: #222222;
   width: 100%;
 }
-
 .projetos-bg span{
   color: #04D361;
 }
-
 .projetos{
   max-width: 960px;
   margin: 20px auto 0 auto;
@@ -294,12 +263,10 @@ h1{
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .projetos img{
   width: 480px;
   height: 280px;
 }
-
 .projeto p{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1.2em;
@@ -311,7 +278,6 @@ h1{
   border-bottom: 2px  solid #903BF3;
   border-top: 2px  solid #903BF3;
 }
-
 .projeto h3{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1.4em;
@@ -321,13 +287,11 @@ h1{
   line-height: 1.3;
   font-weight: bold;
 }
-
 .projeto{
   max-width: 350px ;
   display: flex;
   flex-direction: column;
 }
-
 .projeto a{
   text-align: none;
   text-align: center;
@@ -343,14 +307,12 @@ h1{
   border-radius: 20px;
   color: white;
 }
-
 .projeto button:hover{
   background: #222222;
   cursor: pointer;
   border: 1px solid #903BF3;
  
 }
-
 #span-white{
   color: white;
   text-align: center;
@@ -362,11 +324,9 @@ h1{
   background: #121214;
   width: 100%;
 }
-
 .contato-bg span{
   color: #04D361;
 }
-
 .contato-bg h3{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1.4em;
@@ -387,14 +347,12 @@ h1{
   justify-content: space-around;
   padding-bottom: 20px;
 }
-
 .contatos img{
   margin-top: 20px;
   width: 70px;
   height: 80px;
   margin: 0 auto;
 }
-
 .contatos img:hover{
   border: 1px solid #903BF3;
   cursor: pointer;
@@ -415,37 +373,23 @@ h1{
   text-align: center;
   margin-left: 40px;
 }
-
 /* Copy */
-
 .copy{
   background: #222222;
   width: 100%;
 }
-
 .copy p{
   color: white;
   font-family: "nunito", Arial, Helvetica, sans-serif;
   padding: 10px;
   text-align: center;
 }
-
 #style-copy{
   color: #04D361;
   font-weight: bold;
 }
 /* Responsive */
 /* Smartphone  */
-
-@media screen and (max-width:320px)
-{
-  .menu ul{
-    flex-direction: column;
-  }
-  .sobre{
-    max-width: 600px;
-  }
-}
 @media screen and (max-width: 580px) 
 {
   /* Intro e menu */
@@ -456,51 +400,35 @@ h1{
 .txt-sobre{
   max-width: 450px;
 }
-
 .txt-sobre p{
   text-align: center;
 }
-
 .valores-sobre img{
   margin: 0px auto;
 }
-
-  /* Skills */
-
+/* Skills*/                             
   .container-skills{
     width: 160px;
     flex-wrap:wrap;
     flex-direction: column;
   }
-
   .container-skills img{
     width: 156px;
     height: 156px;
     padding: 10px;
     margin: 0 auto;
   }
-
-  /* Projetos */
 }
-
-
 /* Tablet tela retrato */
 @media screen and (max-width: 768px) 
 {
-
-  /* Intro e menu */
-
-
   /* Sobre mim */
-
   .sobre{
     max-width: 620px;
   }
-
   .sobre img {
     margin-bottom: 20px;
   }
-
   /* Skills  */
   .container-skills{
     max-width: 620px;
@@ -517,16 +445,8 @@ h1{
 .contatos img:hover{
   padding: 10px;
 }
-
 .contatos button:a{
   color: #903BF3;
   font-weight:normal;
 }
-
-}
-
-/* Tablet tela paisagem e alguns monitores mais antigos */
-@media screen and (max-width: 960px) 
-{
-  
 }

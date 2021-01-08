@@ -435,10 +435,15 @@ h1{
   font-weight: bold;
 }
 /* Responsive */
-
-
-
 /* Smartphone  */
+
+@media screen and (max-width:320px)
+{
+  .txt-sobre{
+  max-width: 350px;
+}
+	
+}
 @media screen and (max-width: 580px) 
 {
   /* Intro e menu */

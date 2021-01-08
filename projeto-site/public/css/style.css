@@ -349,13 +349,14 @@ h1{
 }
 .contatos img{
   margin-top: 20px;
-  width: 70px;
-  height: 80px;
+  width: 60px;
+  height: 70px;
   margin: 0 auto;
 }
 .contatos img:hover{
   border: 1px solid #903BF3;
   cursor: pointer;
+  padding: 10px;
 }
 .contatos a{
   font-family: "nunito", Arial, Helvetica, sans-serif;
@@ -390,6 +391,24 @@ h1{
 }
 /* Responsive */
 /* Smartphone  */
+@media screen and (max-width: 320px) {
+   /* Intro e menu */
+   #title-name{
+    font-size: 1em;
+  }
+/* Sobre mim */
+.txt-sobre{
+  font-size: 1em;
+  max-width: 380px;
+}
+.txt-sobre p{
+  text-align: center;
+}
+.valores-sobre img{
+  margin: 0px auto;
+}
+
+}
 @media screen and (max-width: 580px) 
 {
   /* Intro e menu */
@@ -398,7 +417,8 @@ h1{
   }
 /* Sobre mim */
 .txt-sobre{
-  max-width: 450px;
+  font-size: 1em;
+  max-width: 380px;
 }
 .txt-sobre p{
   text-align: center;
@@ -428,6 +448,10 @@ h1{
   }
   .sobre img {
     margin-bottom: 20px;
+  }
+  .txt-sobre{
+    font-size: 1em;
+    max-width: 380px;
   }
   /* Skills  */
   .container-skills{

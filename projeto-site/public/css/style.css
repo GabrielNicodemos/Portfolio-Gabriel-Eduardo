@@ -443,7 +443,7 @@ h1{
     flex-direction: column;
   }
   .txt-sobre{
-  max-width: 50px;
+  width: 20px;
 }
 	
 }

@@ -102,7 +102,7 @@ img {
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1em;
   text-align: center;
-  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .link{
@@ -145,7 +145,7 @@ img {
 .sobre-bg{
   background: #222222;
   width: 100%;
-  height: 550px;
+  height: 500px;
 }
 .sobre-bg span{
   color: #04D361;
@@ -162,7 +162,6 @@ img {
   width: 200px;
   border-radius: 10px;
   border-bottom: 6px solid #903BF3;
-  
 }
 .txt-sobre{
   max-width: 600px;
@@ -176,8 +175,6 @@ h1{
   text-align: center;
   padding-top: 20px;
 }
-
-
 .txt-sobre h2{
   font-family: LetterGothicStd-bold, Arial, Helvetica, sans-serif;
   font-size: 1.8em;
@@ -223,7 +220,7 @@ h1{
 .skills{
   background: #121214;
   width: 100%;
-  height: 550px;
+  height: 500px;
 }
 .skills span{
   color: #04D361;
@@ -246,7 +243,7 @@ h1{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   color: white;
-  margin: 2px 0 0 0;
+  margin: 10px 0 0 0;
   text-align: center;
   line-height: 1;
 }
@@ -383,7 +380,9 @@ h1{
   line-height: 1.3;
   font-weight: bold;
 }
-
+.contatos-simples{
+  display: none;
+}
 .contatos{
   max-width: 960px;
   margin: 0px auto;
@@ -402,9 +401,8 @@ h1{
 .contatos img:hover{
   border: 1px solid #903BF3;
   cursor: pointer;
-
 }
-.contatos a, p{
+.contatos a{
   font-family: "nunito", Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: white;
@@ -430,6 +428,7 @@ h1{
 }
 
 .copy p{
+  color: white;
   font-family: "nunito", Arial, Helvetica, sans-serif;
   padding-top: 15px;
   text-align: center;
@@ -438,4 +437,119 @@ h1{
 #style-copy{
   color: #04D361;
   font-weight: bold;
+}
+/* Responsive */
+
+
+
+/* Smartphone  */
+@media screen and (max-width: 580px) 
+{
+  /* Intro e menu */
+  #title-name{
+    font-size: 1em;
+  }
+  .img-bg{
+    height: 500px;
+  }
+/* Sobre mim */
+.sobre img {
+  width: 180px;
+}
+.txt-sobre{
+  max-width: 450px;
+}
+
+.txt-sobre p{
+  text-align: center;
+}
+
+.valores-sobre img{
+  margin: 0px auto;
+}
+
+  /* Skills */
+  .skills{
+    height: 800px;
+  }
+
+  .container-skills{
+    width: 160px;
+    flex-wrap:wrap;
+    flex-direction: column;
+  }
+
+  .container-skills img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  /* Projetos */
+  .projetos-bg{
+    height: 1300px;
+
+  }
+
+
+}
+
+
+/* Tablet tela retrato */
+@media screen and (max-width: 768px) 
+{
+
+  /* Intro e menu */
+  .img-bg{
+    height: 500px;
+  }
+
+  /* Sobre mim */
+
+  .sobre-bg{
+    height: 800px;
+  }
+
+  .sobre{
+    max-width: 620px;
+  }
+
+  .sobre img {
+    margin-bottom: 20px;
+  }
+
+  /* Skills  */
+  .container-skills{
+    max-width: 620px;
+  }
+/* Contato*/
+.contato-bg {
+  height: 500px;
+}
+.contatos{
+  max-width: 350px;
+}
+.contatos img{
+  width: 70px;
+  height: 60px;
+  padding-left: 20px;
+}
+.contatos img:hover{
+  padding: 10px;
+}
+
+.contatos button:a{
+  color: #903BF3;
+  font-weight:normal;
+}
+
+}
+
+/* Tablet tela paisagem e alguns monitores mais antigos */
+@media screen and (max-width: 960px) 
+{
+  .img-bg{
+    height: 550px;
+  }
 }

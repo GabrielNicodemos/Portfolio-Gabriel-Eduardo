@@ -232,8 +232,8 @@ h1{
   justify-content: space-around;
 }
 .container-skills img{
-  width: 190px;
-  height: 150px;
+  width: 156px;
+  height: 156px;
   border-bottom: 6px solid #903BF3;
   border-radius: 20px;
 }
@@ -443,7 +443,7 @@ h1{
     flex-direction: column;
   }
   .txt-sobre{
-  max-width: 350px;
+  max-width: 50px;
 }
 	
 }
@@ -475,8 +475,8 @@ h1{
   }
 
   .container-skills img{
-    width: 100px;
-    height: 100px;
+    width: 156px;
+    height: 156px;
     padding: 10px;
     margin: 0 auto;
   }
